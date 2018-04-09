@@ -1,0 +1,18 @@
+html{}
+body{font-size:62.5%;min-width: 1024px;}
+#login{position: relative;text-align: center;width:100%;height: 500px;}
+.login-header{height:50px;color:#000;background: #eee;}
+#header-icon{float:left;font: 1.3em bolder 微软雅黑;line-height: 50px;padding-left: 1.2em;}
+#header-link{padding-right: 1.2em;float:right;font: 1.1em bolder 宋体;line-height: 50px;color:#000;}
+#header-link a{padding-right:0.3em;border-right: 1px solid;}
+#header-link a:last-child{border-right: none;}
+.login-content{width:1200px;height:600px;margin:80px auto;background: #fff;opacity:0.95;position: relative;border-radius:10px;}
+.message{ width:500px;height:300px;position: absolute;left:50px;top:50%;margin-top: -150px;}
+.box{width:550px;height:500px;position: absolute;margin-left: 600px;top:50%;margin-top:-250px;padding: 100px 70px;border-left: grey 3px solid;}
+.message h1{font-weight:  bolder ;}
+.message p{font-size:1.2em;font-family: Microsoft YaHei;}
+/*表单*/
+.form{width:450px;height: 230px;padding-top: 50px;}
+.form #user,.form #psw{width:260px;height:40px;text-indent:16px;border:solid 1px #aaa;border-radius:5px;}
+.form #btn{width:200px;height:50px;background: #87CEFA;border-radius:10px;}
+.button{position:absolute;top: 400px;left:50%;margin-left:-100px;margin-top:20px;}

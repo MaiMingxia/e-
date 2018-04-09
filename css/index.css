@@ -1,0 +1,18 @@
+
+#header{position:relative;height:45px;background: #eee;opacity: 0.8;}
+#header .header-content{line-height: 40px;margin-left: 30px;color: #236;font-size: 1.3em;}
+.header-link{float:right;margin-top: -50px;margin-right: 10px;}
+.header-link ul li{display: inline-block;line-height: 45px;padding:0 10px;}
+.header-link a{padding:0px 5px;color:#025;}
+#search{position:relative;height:30px;}
+#search .search-box{ position:absolute;right: 170px;top:20px;}
+#search .search-box input{padding:0;margin:0;}
+.search-box #text{width:230px;height:30px;text-indent:6px;font-size:1.3em;border-bottom-left-radius: 8px;border-top-left-radius: 8px;}
+.search-box #button{width:70px;height:30px; background: #eee; border-bottom-right-radius: 8px;border-top-right-radius: 8px;}
+
+div#veg,#meat{width:1024px;margin:50px auto;border-top:solid 2px green;}
+h2{display: block;margin-top: 30px;}
+div.row{margin:0;}
+div.row>div{width:256px;height: 500px;float:left;padding:0 42px;}
+div.block{text-align:center; width:200px;float:left;margin-top:20px;height:200px;overflow: hidden;}
+div.row>div>.block:first-child{height:260px;}
